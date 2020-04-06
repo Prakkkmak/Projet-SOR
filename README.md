@@ -12,8 +12,6 @@ Dans le cadre du projet on suppose que l'utilisateur est intelligent et maitrise
 
 Le formulaire d'ajout d'image est une simple page JSP avec comme particularité le type de "file" qui permet d'ajouter un fichier au formulaire.
 
-![image-20200406095544071](C:\Users\Prakkmak\AppData\Roaming\Typora\typora-user-images\image-20200406095544071.png)
-
 Ce formulaire est accessible via le lien http://localhost:8080/sor/img.
 
 ##### sor/com.pinkprogramming.servlets.ImgServlet
@@ -59,19 +57,6 @@ CREATE TABLE IF NOT EXISTS `image_img` (
 
 Les méthodes `saveImg` et `loadImg` y sont implémentés. Ces méthodes utilisent seulement des méthodes d'instance de la classe `ImagesDatabase` et y retournent le résultat.
 
-##### Exécution
-
-Il est difficile de montrer des traces d'exécutions car le nombre d'affichages console sont limités. Voici l'exemple d'une exécution.
-
-![image-20200406101718512](C:\Users\Prakkmak\AppData\Roaming\Typora\typora-user-images\image-20200406101718512.png)
-
-
-
-![image-20200406101901003](C:\Users\Prakkmak\AppData\Roaming\Typora\typora-user-images\image-20200406101901003.png)
-
-
-
-Hooray ! Les images sont bien sauvegardés dans la base de donnée.
 
 ## Partie 2 - Affichage des images
 
@@ -104,18 +89,6 @@ if(rs.next()) {
 ```
 
 On récupère la première image et on l'envoie au client RMI.
-
-##### Exécution
-
-1 -
-
-![image-20200406104002012](C:\Users\Prakkmak\AppData\Roaming\Typora\typora-user-images\image-20200406104002012.png)
-
-2 -
-
-![image-20200406104013028](C:\Users\Prakkmak\AppData\Roaming\Typora\typora-user-images\image-20200406104013028.png)
-
-
 
 ## Conclusion
 
