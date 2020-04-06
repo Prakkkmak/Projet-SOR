@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS `image_img` (
+  `img_id` int(11) NOT NULL AUTO_INCREMENT,
+  `img_bytes` longblob,
+  `img_name` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`img_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
