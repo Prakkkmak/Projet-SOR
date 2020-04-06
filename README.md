@@ -1,7 +1,5 @@
 # **Examen de TP SOR**
 
-Lévy MARQUES, Thibault
-
 ## Préface
 
 Dans le cadre du projet on suppose que l'utilisateur est intelligent et maitrise son outil. Des tests unitaires n'ont pas étés réalisés ce qui ne couvre pas toutes les erreurs possible.
